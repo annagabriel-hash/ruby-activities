@@ -16,4 +16,3 @@ _These are ruby activities (e.g., coding challenges) created during AvionSchool.
 - [Count of positive/sum of negatives](count_positives.rb) - Given an array of integers, determined which are positive and sum of the negative numbers.
 - [Unique in order](3.2_unique_in_order.rb) - Determined the unique sequence
 - [Century in year](centuryyear.rb) - Given the year, determined the century
-- [Format string names](format_string_names.rb) - Given a string of names, format the string of names to using oxford comma
