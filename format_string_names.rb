@@ -9,3 +9,37 @@ def list(arr_of_names)
   new_arr.last.concat(' & ', last_name) 
   new_arr.join(', ')
 end
+
+# TEST RESULTS
+data = [
+  {
+    input: [{name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'}],
+    result: "Bart, Lisa & Maggie",
+  },
+  {
+    input: [{name: 'Bart'}, {name: 'Lisa'}],
+    result: "Bart & Lisa",
+  },
+  {
+    input: [{name: 'Bart'}],
+    result: "Bart",
+  },
+  {
+    input: [],
+    result: "",
+  },
+]
+
+def testData(data)
+  # Header
+  puts 'Test result'
+  25.times {print "-"}
+  puts
+  # Results
+  data.each do |test|
+    puts list(test[:input]) == test[:result]
+  end
+
+end
+
+testData(data)
