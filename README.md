@@ -17,3 +17,5 @@ _These are ruby activities (e.g., coding challenges) created during AvionSchool.
 - [Unique in order](3.2_unique_in_order.rb) - Determined the unique sequence
 - [Century in year](centuryyear.rb) - Given the year, determined the century
 - [Format string names](format_string_names.rb) - Given a string of names, format the string of names to using oxford comma
+- [Vowel code](vowel_code.rb) - Create a function to replace lowercase vowels of the string according to a pattern and another function return the original string
+- [Find the unique number](unique_number.rb) - Find the unique number in an array of numbers
